@@ -12,7 +12,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/booksQueue")
 public class BooksQueueController {
-
     @Autowired
     private BooksQueueService booksQueueService;
 

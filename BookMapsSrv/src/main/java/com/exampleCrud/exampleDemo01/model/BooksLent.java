@@ -8,20 +8,20 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table(name = "booksLent")
+@Table(name = "books_lent")
 public class BooksLent {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     @Column(name = "lender_id",nullable = false)
-    private String lender_id;
+    private long lender_id;
     @Column(name = "borrower_id",nullable = false)
-    private String borrower_id;
+    private long borrower_id;
     @Column(name = "book_id",nullable = false)
-    private String book_id;
+    private long book_id;
     @Column(name = "lent_at",nullable = false)
     private String lent_at;
-    @Column(name = "returned_at",nullable = false)
+    @Column(name = "returned_at",nullable = true)
     private String returned_at;
 }

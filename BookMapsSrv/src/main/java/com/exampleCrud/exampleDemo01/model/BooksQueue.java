@@ -8,9 +8,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table(name = "booksQueue")
+@Table(name = "books_queue")
 public class BooksQueue {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;

@@ -28,7 +28,7 @@ public class BookController {
 
     //Get by Id Rest Api
     @GetMapping("{id}")
-    // localhost:8080/api/employees/1
+    // localhost:8080/api/books/1
     public ResponseEntity<Book> getBookbyId(@PathVariable("id") long bookID){
         return new ResponseEntity<Book>(bookService.getBookbyId(bookID),HttpStatus.OK);
     }
