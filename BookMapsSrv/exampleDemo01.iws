@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef4ad1f8-c50e-4e10-a825-5edfac4c6591" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/exampleSinhala/exampleDemo01/ExampleDemo01ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exampleCrud/exampleDemo01/ExampleDemo01ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleDemo01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exampleDemo01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleDemo01.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/exampleDemo01.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleDemo01.iws" beforeDir="false" afterPath="$PROJECT_DIR$/exampleDemo01.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exampleCrud/exampleDemo01/model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exampleCrud/exampleDemo01/model/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exampleCrud/exampleDemo01/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exampleCrud/exampleDemo01/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.exampleSinhala.exampleDemo01.ExampleDemo01ApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.exampleSinhala.exampleDemo01.ExampleDemo01ApplicationTests.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +179,13 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="HIDE_WARNINGS" value="false" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -199,13 +212,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
-    </option>
-    <option name="enabledProfiles">
-      <list>
-        <option value="native" />
-      </list>
     </option>
   </component>
   <component name="PerforceConfiguration">
@@ -241,6 +249,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2kRSZ0AEzG0jKj0XFU7trZ9BxVk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewSettings">
     <navigator currentView="ProjectPane" flattenPackages="false" showMembers="false" showStructure="false" autoscrollToSource="false" splitterProportion="0.5" />
     <view id="ProjectPane">
@@ -253,14 +264,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ExampleDemo01Application.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.exampleCrud.exampleDemo01.controller" />
+      <recent name="com.exampleCrud.exampleDemo01.service.impl" />
+      <recent name="com.exampleCrud.exampleDemo01.service" />
+      <recent name="com.exampleCrud.exampleDemo01.repository" />
+      <recent name="com.exampleCrud.exampleDemo01.model" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.ExampleDemo01Application">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
