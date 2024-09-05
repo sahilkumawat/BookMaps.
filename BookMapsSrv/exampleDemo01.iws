@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef4ad1f8-c50e-4e10-a825-5edfac4c6591" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/exampleDemo01.iws" beforeDir="false" afterPath="$PROJECT_DIR$/exampleDemo01.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampleCrud/exampleDemo01/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampleCrud/exampleDemo01/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampleCrud/exampleDemo01/controller/BooksQueueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampleCrud/exampleDemo01/controller/BooksQueueController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampleCrud/exampleDemo01/model/BooksLent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampleCrud/exampleDemo01/model/BooksLent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampleCrud/exampleDemo01/model/BooksQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampleCrud/exampleDemo01/model/BooksQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +268,7 @@
       <recent name="com.exampleCrud.exampleDemo01.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExampleDemo01Application">
+  <component name="RunManager" selected="JUnit.BookMapsApplicationTests">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -298,6 +295,26 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookMapsApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exampleDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maps.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maps.book" />
+      <option name="MAIN_CLASS_NAME" value="com.maps.book.BookMapsApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -355,6 +372,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookMapsApplicationTests" />
         <item itemvalue="Application.ExampleDemo01Application" />
         <item itemvalue="JUnit.ExampleDemo01ApplicationTests (1)" />
         <item itemvalue="JUnit.ExampleDemo01ApplicationTests" />
