@@ -29,10 +29,12 @@ mvn spring-boot:run
 ```
 
 ## Access Postgres Database in browser
-[Postgres Adminer](http://localhost:8080/)
+[Postgres Adminer](http://localhost:9090/)
 
 ## Use ElasticVue for ElasticSearch Client
 [Elasticvue](https://elasticvue.com)
 
+## Accessing Kibana in browser
+[ElasticSearch Kibana](http://localhost:5601/)
 
 
