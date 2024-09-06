@@ -10,6 +10,7 @@ brew install docker-compose
 Use Java 17
 
 ```bash
+mvn clean install
 mvn install -DskipTests
 ```
 
