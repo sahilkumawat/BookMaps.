@@ -8,8 +8,12 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
+    var enteredName: String?
+    var enteredUsername: String?
 
     @IBOutlet weak var profileImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var usernameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,9 +21,13 @@ class ProfileViewController: UIViewController {
         // Do any additional setup after loading the view.
         profileImageView.layer.cornerRadius = profileImageView.frame.size.width / 2
         profileImageView.layer.masksToBounds = true
-        
+        // set name, username
+        nameLabel.text = enteredName
+        usernameLabel.text = enteredUsername
         
     }
+    
+    
 
     /*
     // MARK: - Navigation
