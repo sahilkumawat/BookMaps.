@@ -8,11 +8,11 @@
 		<version>3.2.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.exampleSinhala</groupId>
-	<artifactId>exampleDemo01</artifactId>
+	<groupId>com.book.maps</groupId>
+	<artifactId>BookMaps</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>exampleDemo01</name>
-	<description>Demo project for Spring Boot</description>
+	<name>BookMaps</name>
+	<description>Book Maps Service</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
