@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef4ad1f8-c50e-4e10-a825-5edfac4c6591" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/exampleDemo01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exampleDemo01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleDemo01.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/exampleDemo01.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exampleDemo01.iws" beforeDir="false" afterPath="$PROJECT_DIR$/exampleDemo01.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker/start_pg_es.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/docker/start_pg_es.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maps/book/BookMapsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maps/book/BookMapsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maps/book/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maps/book/model/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,6 +206,9 @@
     <option name="ADD_LABEL_ON_UNIT_TEST_PASSED" value="true" />
     <option name="ADD_LABEL_ON_UNIT_TEST_FAILED" value="true" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="PerforceConfiguration">
     <option name="PORT" value="magic:1666" />
     <option name="USER" value="" />
@@ -249,16 +257,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ExampleDemo01Application.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ExampleDemo01Application.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.42988506",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.exampleCrud.exampleDemo01.controller" />
@@ -505,5 +516,9 @@
   </component>
   <component name="WebViewSettings">
     <webview flattenPackages="false" showMembers="false" autoscrollToSource="false" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
