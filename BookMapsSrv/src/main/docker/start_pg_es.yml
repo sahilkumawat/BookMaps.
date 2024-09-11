@@ -42,3 +42,33 @@ services:
     restart: always
     ports:
       - 9090:9090
+
+  redis:
+    image: redis:6.2-alpine
+    container_name: bookmaps-redis
+    restart: always
+    ports:
+      - '6379:6379'
+    command: redis-server --save 20 1 --loglevel warning --requirepass eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81
+    volumes:
+      - redis:/data
+
+  redis-commander:
+    container_name: bookmaps-redis-commander
+    hostname: redis-commander
+    image: rediscommander/redis-commander:latest
+    build: .
+    restart: always
+    environment:
+      REDIS_HOSTS: redis
+      REDIS_HOST: redis
+      REDIS_PORT: redis:6379
+      REDIS_PASSWORD: eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81
+      HTTP_USER: root
+      HTTP_PASSWORD: root
+    ports:
+      - 8081:8081
+
+volumes:
+  redis:
+  redis-config:
